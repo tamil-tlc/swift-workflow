@@ -29,11 +29,8 @@ jobs:
      - name: checkout the code
        uses: actions/checkout@v4
 
-     - name: show swift version
-       run: swift --version
-
-     - name: run tests
-       run: swift test --parallel
+     - name: Run tests
+       run: xcodebuild -scheme MyAppScheme -destination 'platform=macOS' test
   
       
     
