@@ -3,9 +3,9 @@ name: Swift
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "ai" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "ma" ]
 
 jobs:
   lint:
